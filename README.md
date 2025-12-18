@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="icon.png" width="128" height="128" alt="TopIt Icon" />
+  <img src="images/icon.png" width="128" height="128" alt="TopIt Icon" />
   <h1>TopIt for Gmail: Send Emails to Top</h1>
 </div>
 
@@ -25,6 +25,8 @@ The extension injects a script that:
 
 It uses robust input simulation to ensure Gmail's internal validation accepts the programmatically entered time.
 
+![TopIt for Gmail Screenshot](images/screenshot.png)
+
 ## Installation
 
 ### From Source (Developer Mode)
@@ -37,7 +39,14 @@ It uses robust input simulation to ensure Gmail's internal validation accepts th
 
 ## Privacy Policy
 
-This extension does not collect, store, or transmit any user data. All operations are performed locally on the active Gmail tab to automate user UI interactions.
+**TopIt for Gmail** is built with a "Privacy First" approach. 
+
+- **No Data Collection:** The extension does not collect, store, or transmit any user data, personal information, or email content.
+- **100% Local:** All operations are performed locally in your browser. No data ever leaves your device.
+- **No Tracking:** There are no analytics, cookies, or third-party trackers.
+- **Host Permission:** The `https://mail.google.com/*` permission is strictly used to inject the "Send to Top" button and automate the native snooze dialog.
+
+For the full legal text, please see our [Privacy Policy](PRIVACY.md).
 
 ## Contributing
 
