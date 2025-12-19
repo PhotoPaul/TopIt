@@ -1,9 +1,22 @@
 <div align="center">
   <img src="images/icon.png" width="128" height="128" alt="TopIt Icon" />
   <h1>TopIt for Gmail: Send Emails to Top</h1>
+  <img src="images/gmail.svg" alt="Platform Gmail" />
+  <a href="LICENSE"><img src="images/license.svg" alt="License MIT" /></a>
+  <img src="images/prs-welcome.svg" alt="PRs Welcome" />
 </div>
 
 **TopIt** is a lightweight Chrome Extension that adds a **"Send to Top"** button directly to the Gmail toolbar. It works by snoozing emails for just 1 minute so they reappear at the top of your inbox almost instantly.
+
+<div align="center">
+  <a href="https://chromewebstore.google.com/detail/eapkefpnemmndlilinojkfpdlglejagc" target="_blank"><img src="images/chrome-web-store.png" width="206" height="58" alt="Available in the Chrome Web Store" /></a>
+</div>
+
+## Why TopIt?
+
+Gmail doesn't have a native way to **reorder your inbox** or manually "bump" an important email to the top. While the native Snooze feature exists, using it to reorder requires multiple clicks and manual time entry. 
+
+**TopIt** solves this by turning the Snooze mechanism into a **1-click "Push to Top" feature**, essentially letting you reorder your priorities instantly.
 
 ## Features
 
@@ -11,6 +24,8 @@
 - ⚡ **Instant Action**: Automatically snoozes the email to the current time + 1 minute (rounded up).
 - 🎨 **Native Look & Feel**: The custom button mimics Gmail's style and automatically syncs with Gmail's theme/density updates.
 - 🛡️ **Privacy Focused**: No data collection, no tracking. Runs entirely locally in your browser.
+
+![TopIt for Gmail Screenshot](images/screenshot.png)
 
 ## How it Works
 
@@ -25,11 +40,12 @@ The extension injects a script that:
 
 It uses robust input simulation to ensure Gmail's internal validation accepts the programmatically entered time.
 
-![TopIt for Gmail Screenshot](images/screenshot.png)
-
 ## Installation
 
-### From Source (Developer Mode)
+### 🌐 Official Chrome Web Store
+The easiest way to get TopIt is to install it directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/eapkefpnemmndlilinojkfpdlglejagc).
+
+### 🛠️ From Source (Developer Mode)
 
 1. Clone or download this repository.
 2. Open Chrome and navigate to `chrome://extensions/`.
@@ -51,6 +67,10 @@ For the full legal text, please see our [Privacy Policy](PRIVACY.md).
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the extension.
+
+## 🛠️ Support
+
+If you find a bug, have a feature request, or need help, please [open an issue](https://github.com/PhotoPaul/TopIt/issues) on GitHub.
 
 ## Disclaimer
 
